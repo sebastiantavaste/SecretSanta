@@ -1,0 +1,164 @@
+:root {
+    --santa-red: #A31123;
+    --santa-red-alpha: rgba(163, 17, 34, 0.4);
+    --santa-green: #0A9F99;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#title {
+    background-color: var(--santa-red);
+    padding: 3% 15%;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*NAVBAR*/
+.navbar {
+    padding-bottom: 4.5rem!important;
+    padding-left: 0;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem!important;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 30%;
+    transform: rotate(10deg);
+}
+
+/*FEATURES SECTION*/
+
+#features {
+    padding: 7% 15%;
+    background-color: rgb(44, 41, 41);
+}
+
+.feature-box {
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature-box p {
+    color: #8f8f;
+}
+
+.feature-box i {
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+
+.feature-box i:hover {
+    color: var(--santa-green);
+}
+
+/*Testimonials*/
+
+#testimonials {
+    background-color: var(--santa-red-alpha);
+    color: white;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+/* PRESS SECTION */
+.press {
+    background-color: var(--santa-red-alpha);
+    text-align: center;
+    padding: 3% auto;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.5rem;
+}
+
+#pricing {
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 2rem;
+}
+
+#cta {
+    padding: 0.5rem;
+    text-align: center;
+}
+#footer {
+    text-align: center;
+}
+.paragraph {
+    padding-bottom: 1.5rem;
+}
+
+.social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    width: 3.3rem;
+    height: 3.3rem;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.social a:hover {
+    text-decoration: none;
+    background-color: var(--santa-green);
+    border-radius: 50%;
+}
+
+.social i {
+    color: var(--santa-red);
+}
+
+.download-btn2 {
+    margin: 0.5rem;
+}
+
+.download-btn2 i, .download-btn i {
+    padding: 0.3rem;
+}
